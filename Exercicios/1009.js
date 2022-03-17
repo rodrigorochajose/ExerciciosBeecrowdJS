@@ -2,9 +2,9 @@ var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
 var nome = lines.shift();
-var salf = parseFloat(lines.shift());
-var ttv = parseFloat(lines.shift());
+var salFixo = parseFloat(lines.shift());
+var totalVendas = parseFloat(lines.shift());
 
-var c = ((ttv * 15) / 100);
+var comissao = totalVendas * 0.15;
 
-console.log(`TOTAL = R$ ${(salf + c).toFixed(2)}`)
+console.log(`TOTAL = R$ ${(salFixo + comissao).toFixed(2)}`)

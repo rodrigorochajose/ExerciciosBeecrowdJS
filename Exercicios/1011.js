@@ -4,6 +4,7 @@ var lines = input.split('\n');
 const pi = 3.14159;
 var raio = parseFloat(lines.shift());
 
-var vol = (4/3) * pi * (raio**3);
+var vol = (4/3) * pi * Math.pow(raio, 3);
 
-console.log(`VOLUME = ${vol.toFixed(2)}`);
+console.log(`VOLUME = ${vol.toFixed(3)}`);
+ 
