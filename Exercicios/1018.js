@@ -51,7 +51,6 @@ console.log(`${valor.dois} notas de R$ 2,00`);
 console.log(`${valor.um} notas de R$ 1,00`);
 */
 
-//      VERSÃO NÃO ACEITA PELO BEECROWD
 var input = require('fs').readFileSync('stdin', 'utf8');
 
 let valor = parseInt(input);
