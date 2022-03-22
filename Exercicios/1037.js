@@ -1,3 +1,11 @@
+/* stdin
+    25.01
+    -----
+    100.00
+    ------
+    -25.02
+*/
+
 var input = require('fs').readFileSync('stdin', 'utf8');
 
 if (input >= 0 && input <= 25.0000)

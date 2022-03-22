@@ -1,3 +1,11 @@
+/* stdin
+    12 1 5.30
+    16 2 5.10
+    ----------
+    13 2 15.30
+    161 4 5.20
+*/
+
 var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 

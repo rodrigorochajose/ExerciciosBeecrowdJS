@@ -1,27 +1,10 @@
-/*
-        NÃO ACEITO PELO SITE MAS MESMA FUNCIONALIDADE
-
-const readline = require('readline');
-
-const r1 = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-})
-
-r1.question('Informe A ', (a)=>{
-    r1.question('Informe B ', (b)=>{
-        let x = parseInt(a) + parseFloat(b);
-        console.log(`X = ${x}`);
-    })
-})
-
-r1.on('close',()=>{
-    console.log('adeus');
-    process.exit(0);
-})
+/* stdin
+    10
+    9
+    ---
+    -10
+    4
 */
-
-//  ACEITO PELO SITE
 
 var input = require('fs').readFileSync('stdin', 'utf8');
 

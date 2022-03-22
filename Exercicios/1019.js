@@ -1,3 +1,9 @@
+/* stdin
+    556
+    ---
+    140153
+*/
+
 var input = require('fs').readFileSync('stdin', 'utf8');
 var valor = parseInt(input);
 

@@ -1,3 +1,9 @@
+/* stdin
+    7 14 106
+    --------
+    217 14 6
+*/
+
 var input = require('fs').readFileSync('stdin', 'utf8');
 var [a, b, c] = input.split(' ').map(item => parseInt(item));
 

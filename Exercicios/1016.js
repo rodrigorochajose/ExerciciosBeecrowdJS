@@ -1,3 +1,6 @@
+/* stdin
+    30
+*/
 var input = require('fs').readFileSync('stdin', 'utf8');
 
 // var min = (60 * input) / 30;

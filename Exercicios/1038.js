@@ -1,3 +1,6 @@
+/* stdin
+    3 2
+*/
 var input = require('fs').readFileSync('stdin', 'utf8');
 var [cod, qnt] = input.split(' ');
 var total = 0;

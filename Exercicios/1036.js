@@ -1,3 +1,9 @@
+/* stdin
+    10.0 20.1 5.1 
+    -------------
+    0.0 20.0 5.0
+*/
+
 var input = require('fs').readFileSync('stdin', 'utf8');
 
 var [a, b, c] = input.split(' ');

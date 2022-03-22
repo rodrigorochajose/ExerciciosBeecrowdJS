@@ -1,3 +1,10 @@
+/* stdin
+    5
+    6
+    7
+    8
+*/
+
 var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 

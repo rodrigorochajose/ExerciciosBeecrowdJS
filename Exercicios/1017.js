@@ -1,3 +1,11 @@
+/* stdin
+    10
+    85
+    --
+    2
+    92
+*/
+
 /*
 var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
@@ -8,7 +16,6 @@ var velMedia = lines.shift();
 var litrosNecessarios = (horasGastas * velMedia) / 12;
 
 console.log(`${litrosNecessarios.toFixed(3)}`);
-
 */
 
 var input = require('fs').readFileSync('stdin', 'utf8');

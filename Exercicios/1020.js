@@ -1,3 +1,7 @@
+/* stdin
+    400
+*/
+
 var input = require('fs').readFileSync('stdin', 'utf8');
 var ano = 0;
 var mes = 0;

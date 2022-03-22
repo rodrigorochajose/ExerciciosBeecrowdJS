@@ -1,3 +1,7 @@
+/* stdin
+    576.73
+*/
+
 var input = require('fs').readFileSync('stdin', 'utf8');
 
 var notas = [100, 50, 20, 10, 5, 2];

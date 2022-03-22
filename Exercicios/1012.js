@@ -1,3 +1,9 @@
+/* stdin
+    3.0 4.0 5.2
+    -----------
+    12.7 10.4 15.2
+*/
+
 var input = require('fs').readFileSync('stdin', 'utf8');
 var [a, b, c] = input.split(' ').map(item => parseFloat(item));
 
